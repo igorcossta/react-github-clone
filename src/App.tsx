@@ -1,3 +1,5 @@
+import "react-calendar-heatmap/dist/styles.css";
+
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -10,14 +12,12 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      https://youtu.be/iLEbGQXsg3k
-      1:17:30
+      https://youtu.be/iLEbGQXsg3k 1:37:14
       <Routes>
         <Route path="/" element={<Profile />} />
         <Route path="/:username" element={<Profile />} />
         <Route path="/:username/:reponame" element={<Repo />} />
       </Routes>
-
       <GlobalStyles />
     </BrowserRouter>
   );
