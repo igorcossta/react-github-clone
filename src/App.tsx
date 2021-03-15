@@ -12,7 +12,6 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      https://youtu.be/iLEbGQXsg3k 1:37:14
       <Routes>
         <Route path="/" element={<Profile />} />
         <Route path="/:username" element={<Profile />} />
