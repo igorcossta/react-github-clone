@@ -83,6 +83,12 @@ export const Botside = styled.div`
     &.typescript {
       background: var(--typescript);
     }
+    &.java {
+      background: var(--other-language);
+    }
+    &.html {
+      background: var(--other-language);
+    }
   }
 `;
 
